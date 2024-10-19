@@ -1,0 +1,27 @@
+10. 檢查 SSMS 是否可以正常登入 及 匯入資料庫
+
+
+. SSMS 登入
+	伺服器名稱：LAPTOP-HSKN3HOJ
+	驗證(A)：？ / Windows 驗證
+	使用者名稱：(因為是windows驗證沒有驗證)
+	使用者密碼：(因為是windows驗證沒有驗證)
+
+
+. 取得資料庫 Northwind(北風資料庫) 
+	位置：https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs
+	檔案：instnwnd.sql
+	!! 注意 !! 這個SQL不能直接執行
+
+
+
+. 取得資料庫 AdventureWorksDW2022 (資料倉儲)
+	位置：https://docs.microsoft.com/zh-tw/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms#download-backup-files
+	檔案：AdventureWorksDW2022.bak
+	!! 注意 !! 若 SQL Server 非 2022，請在下載位置選擇對應版本
+
+
+. 取得資料庫 AdventureWorks
+	位置：https://github.com/Microsoft/sql-server-samples/blob/master/samples/databases/adventure-works/README.md#to-install-adventureworks
+	檔案：AdventureWorksDW-data-warehouse-install-script.zip
+
